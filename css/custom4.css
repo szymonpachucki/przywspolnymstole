@@ -1,0 +1,84 @@
+html, body {
+    /*font: 14px Tahoma, Verdana, Arial, sans-serif;*/
+    /*padding: 10;*/
+    /*margin: 0;*/
+    /*border: 0px white solid;*/
+    /*text-align: center;*/
+    /*background: #ff6699; ró¿owy*/
+	/* background: url('../img/P5044222-0.png')  no-repeat center center fixed; /*dzia³a tylko w katalogu nadrzednym: ../ !!!!???   tylko to pozostalych-ponizej-zdjecie niedopasowane do wlk strony */
+}	
+
+/* background dla samego html -> tylko pod strona
+html, body { 
+background: url('../img/P5044222-0.png') no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+	
+.first {
+	border: 1px solid black;
+	background: grey;
+	padding: 
+}
+
+img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	vertical-align: middle;
+}
+ */
+body { padding-top: 70px; }
+ 
+.grey0 {
+	background: grey;
+} 
+.grey1 {
+	background: #494949;
+}
+/* dodanie autowymiarowania obrazka??? jest mocno zmniejszony i niewyrównany w pionie wewn¹trz bloku */
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;	/* auto-obrazek nie pomniejszony/niedopasowany*/
+  padding: 5px; /* zmienilem z 15px  - wtedy byl bardzo maly obrazek*/
+  width: auto;
+}
+.link1 {
+	background: #f8f8f8;
+}	
+.link1 a:hover {
+	background: #e6e6e6;
+}
+/* dopasowanie obrazków do thumbnail - potrzebne ???  - zmienia-zminiejsza rozmiar thumbnail, bez tego  wypelnialy strone-brak odstepow */
+.thumbnail2 {
+    height: 100px;
+    display: table;
+}
+
+.thumbnail2 img {
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+ /* unvisited link */
+a:link {
+    color: green;
+}
+/* visited link */
+a:visited {
+    color: green;
+}
+/* mouse over link */
+a:hover {
+    color: pink; /*red;*/
+}
+/* selected link */
+a:active {
+    color: yellow;
+} 

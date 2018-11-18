@@ -1,0 +1,30 @@
+html, body {
+    /*font: 14px Tahoma, Verdana, Arial, sans-serif;*/
+    /*padding: 10;*/
+    /*margin: 0;*/
+    /*border: 0px white solid;*/
+    /*text-align: center;*/
+    /*background: #ff6699; ró¿owy*/
+	/* background: url('../img/P5044222-0.png')  no-repeat center center fixed; /*dzia³a tylko w katalogu nadrzednym: ../ !!!!???   tylko to pozostalych-ponizej-zdjecie niedopaowane do wlk strony */
+}	
+/* background dla samego html -> tylko pod strona */
+html, body { 
+background: url('../img/P5044222-0.png') no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+	
+.first {
+	border: 1px solid black;
+	background: grey;
+	padding: 
+}
+
+img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	vertical-align: middle;
+}
